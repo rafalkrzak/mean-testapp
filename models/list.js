@@ -13,7 +13,7 @@ const BucketlistSchema = mongoose.Schema({
   }
 });
 
-const BucketList = module.exports = mongoose.model('BUcketList', BucketlistSchema);
+const BucketList = module.exports = mongoose.model('BucketList', BucketlistSchema);
 
 module.exports.getAllLists = (callback) => {
   BucketList.find(callback);
