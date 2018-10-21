@@ -12,7 +12,9 @@ export class ListService {
 
     constructor(private http: Http) { }
 
-    private serverApi= 'http://localhost:3000';
+    // private serverApi= 'http://localhost:3000';
+    private serverApi= 'http://68.183.72.152:3000';
+
 
     public getAllLists():Observable<List[]> {
 
