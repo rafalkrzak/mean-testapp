@@ -1,0 +1,26 @@
+{
+  "name": "awesome-bucketlist",
+  "version": "1.0.0",
+  "description": "sitepoint tut",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "~2.8.3",
+    "express": "^4.16.4",
+    "mongoose": "~4.11.0"
+  },
+  "author": "RK",
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafalkrzak/mean-testapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafalkrzak/mean-testapp/issues"
+  },
+  "homepage": "https://github.com/rafalkrzak/mean-testapp#readme"
+}
